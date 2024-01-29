@@ -4,11 +4,13 @@ import styled from 'styled-components';
 import Menu from '../../components/menu/Menu';
 import Logo from '../../components/logo/Logo';
 
+const ITEMS = ['Home', 'Skills', 'Works', 'Testimony', 'Contact',]
+
 export const Header = () => {
   return (
     <StyledHeader>
       <Logo />
-      <Menu />
+      <Menu menuItems={ITEMS}/>
     </StyledHeader>
   );
 };
