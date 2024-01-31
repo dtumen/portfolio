@@ -17,7 +17,7 @@ export default function Contact() {
   )
 }
 
-const StyledContact = styled.section`
+const StyledContact = styled.section`  
   min-height: 50vh;
   background-color: #fffae1;
 `
