@@ -22,7 +22,7 @@ export const Footer: React.FC = () => {
           }
           
         </S.SocialList>
-        <S.Copyright>© 2023 Svetlana Dyablo, All Rights Reserved.</S.Copyright>
+        <S.Copyright>© 2023 Tumen Dambaev, All Rights Reserved.</S.Copyright>
       </FlexWrapper>
     </S.Footer>
   )
