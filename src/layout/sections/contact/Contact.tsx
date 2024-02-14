@@ -7,7 +7,7 @@ import { S } from './Contact_Styles'
 
 export const Contact: React.FC = () => {
   return (
-    <section>
+    <S.Contacts>
       <Container>
         <SectionTitle>Contact</SectionTitle>
         <S.Form>
@@ -17,6 +17,6 @@ export const Contact: React.FC = () => {
           <Button>Send message</Button>
         </S.Form>
       </Container>
-    </section>
+    </S.Contacts>
   )
 }

@@ -1,6 +1,10 @@
 import styled from 'styled-components'
 import { theme } from '../../../styles/Theme'
 
+const Contacts = styled.section`
+  position: relative;
+`
+
 const Form = styled.form`
   max-width: 540px;
   width: 100%;
@@ -42,6 +46,7 @@ const Field = styled.input`
 `
 
 export const S = {
+  Contacts,
   Form,
   Field,
 }
