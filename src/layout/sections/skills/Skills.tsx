@@ -14,7 +14,7 @@ import { skillData } from '../../../utils/datas';
 
 export const Skills: React.FC = () => {
   return (
-    <S.Skills>
+    <S.Skills id='skills'>
       <Container>
         <SectionTitle>My Skills</SectionTitle>
         <FlexWrapper wrap='wrap' justify='space-between'>
