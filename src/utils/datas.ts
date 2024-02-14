@@ -39,7 +39,24 @@ export const skillData = [
 
 // Works.tsx:
 
-export const tabMenuItems = ['All', 'landing page', 'React', 'spa'];
+export const tabMenuItems = [
+  {
+    title: 'All',
+    status: 'all',
+  },
+  {
+    title: 'Landing page',
+    status: 'landing',
+  },
+  {
+    title: 'React',
+    status: 'react',
+  },
+  {
+    title: 'SPA',
+    status: 'spa',
+  },
+];
 
 export const workData = [
   {
@@ -47,12 +64,14 @@ export const workData = [
     text: LoremText,
     imageSrc: socialImg,
     alt: 'Social NetWork',
+    type: 'spa',
   },
   {
     title: 'Timer',
     text: LoremText,
     imageSrc: timerImg,
     alt: 'Timer',
+    type: 'react',
   },
 ];
 
