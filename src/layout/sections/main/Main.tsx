@@ -28,7 +28,7 @@ export const Main: React.FC = () => {
               />
             </S.MainTitle>
           </div>
-          <Tilt scale={0.7} transitionSpeed={2500}>
+          <Tilt transitionSpeed={2500}>
             <S.PhotoWrapper>
               <S.Photo src={photo} alt="Фото" />
             </S.PhotoWrapper>

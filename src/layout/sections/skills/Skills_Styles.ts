@@ -1,8 +1,17 @@
 import styled from 'styled-components'
 import { theme } from '../../../styles/Theme'
+import { FlexWrapper } from '../../../components/FlexWrapper'
 
 const Skills = styled.section`
   position: relative;
+
+  @media ${theme.media.tablet} {
+    ${FlexWrapper} {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 `
 
 const Skill = styled.div`
